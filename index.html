@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBTECH SOLUTIONS - Servicio Técnico Lima Sur</title>
+    <meta name="description" content="Reparación de computadoras, laptops e impresoras a domicilio en Villa El Salvador y Lima Sur.">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#inicio" class="logo-container" title="WEBTECH SOLUTIONS - Ir al inicio">
+                <div class="logo-box" aria-hidden="true">W</div>
+                <div class="logo-text">
+                    <span class="logo-webtech">WEBTECH</span>
+                    <span class="logo-solutions">SOLUTIONS</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio" title="Ir a inicio">Inicio</a></li>
+                <li><a href="#servicios" title="Ver nuestros servicios">Servicios</a></li>
+                <li><a href="#cobertura" title="Ver zonas de cobertura">Cobertura</a></li>
+                <li><a href="#cotizacion" title="Solicitar cotización">Cotización</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>Soporte Técnico <span class="hero-highlight">Profesional</span></h1>
+            <p>Reparamos tu laptop o PC en la comodidad de tu hogar. Servicio garantizado en todo Lima Sur.</p>
+            
+            <div class="hero-features">
+                <div class="hero-feature"><i data-lucide="home" aria-hidden="true"></i> A Domicilio</div>
+                <div class="hero-feature"><i data-lucide="zap" aria-hidden="true"></i> Respuesta Rápida</div>
+                <div class="hero-feature"><i data-lucide="shield-check" aria-hidden="true"></i> Garantía Real</div>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="https://wa.me/51931359332" class="btn btn-whatsapp" title="Contactar por WhatsApp" target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="message-circle" aria-hidden="true"></i> WhatsApp Directo
+                </a>
+                <a href="#cotizacion" class="btn btn-outline" title="Solicitar presupuesto">Solicitar Presupuesto</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="services container">
+        <div class="section-header">
+            <h2 class="section-title">Especialidades</h2>
+            <p>Soluciones técnicas con repuestos de alta calidad</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon-wrapper"><i data-lucide="monitor" aria-hidden="true"></i></div>
+                <h3>Reparación de PC</h3>
+                <p>Solución de pantallazos azules, lentitud y problemas de encendido.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon-wrapper"><i data-lucide="hard-drive" aria-hidden="true"></i></div>
+                <h3>Upgrade SSD/RAM</h3>
+                <p>Aumenta la velocidad de tu equipo hasta 10 veces con discos sólidos.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon-wrapper"><i data-lucide="wind" aria-hidden="true"></i></div>
+                <h3>Mantenimiento</h3>
+                <p>Limpieza profunda y cambio de pasta térmica para evitar sobrecalentamiento.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon-wrapper"><i data-lucide="printer" aria-hidden="true"></i></div>
+                <h3>Impresoras</h3>
+                <p>Soporte técnico multimarca y configuración de redes Wi-Fi.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cobertura" class="coverage">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Zonas de Cobertura</h2>
+                <p>Servicio a domicilio en toda Lima Sur</p>
+            </div>
+            <div class="coverage-grid">
+                <div class="zone-card">
+                    <i data-lucide="map-pin" aria-hidden="true"></i>
+                    <h4>Villa El Salvador</h4>
+                    <p>Zona principal de operaciones</p>
+                </div>
+                <div class="zone-card">
+                    <i data-lucide="map-pin" aria-hidden="true"></i>
+                    <h4>Villa María del Triunfo</h4>
+                    <p>Cobertura completa</p>
+                </div>
+                <div class="zone-card">
+                    <i data-lucide="map-pin" aria-hidden="true"></i>
+                    <h4>San Juan de Miraflores</h4>
+                    <p>Atención inmediata</p>
+                </div>
+                <div class="zone-card">
+                    <i data-lucide="map-pin" aria-hidden="true"></i>
+                    <h4>Chorrillos y Surco</h4>
+                    <p>Servicio disponible</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cotizacion" class="quote-section">
+        <div class="container">
+            <div class="quote-container">
+                <h2>¿Qué problema tiene tu equipo?</h2>
+                <form id="quoteForm" class="form-grid">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">WhatsApp</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="999 999 999">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="service">Servicio</label>
+                        <select id="service" name="service" required>
+                            <option value="Mantenimiento Preventivo">Mantenimiento Preventivo</option>
+                            <option value="Reparación / No enciende">Reparación / No enciende</option>
+                            <option value="Instalación de Windows / Software">Instalación de Windows / Software</option>
+                            <option value="Cambio de Pantalla / Teclado">Cambio de Pantalla / Teclado</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Descripción</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Cuéntanos brevemente la falla..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-whatsapp full-width">
+                        Enviar a WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>WEBTECH SOLUTIONS</h4>
+                    <p>Tu aliado tecnológico en Villa El Salvador y Lima Sur. Más de 5 años brindando soluciones confiables.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Cobertura</h4>
+                    <p>• Villa El Salvador<br>• VMT / SJM<br>• Chorrillos / Surco</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>WhatsApp: 931 359 332<br>Email: camilo.condori.1234@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WEBTECH SOLUTIONS. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/51931359332" class="whatsapp-float" title="Contactar por WhatsApp" target="_blank" rel="noopener noreferrer">
+        <i data-lucide="message-circle" aria-hidden="true"></i>
+    </a>
+
+    <!-- Librería de iconos Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- JavaScript principal -->
+    <script src="script.js"></script>
+</body>
+</html>
